@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Sevillana&family=Tangerine:wght@400;700&display=swap");
+
+body {
+    background-color: rgb(181, 176, 173);
+}
+
+.name {
+	font-family: "Tangerine", cursive;
+	font-weight: 700;
+	font-style: normal;
+}
+
+img {
+    border-radius: 40px;
+	border-style: ridge;
+}
+
+td.image-side {
+	text-align: right;
+	padding-right: 20px; /* adjust padding for further right position */
+  }
+
+.center-table {
+	text-align: right;
+  }
+
+table {
+	margin: 0 auto;  /* Centers the table horizontally */
+  }
+
+header table td {
+	text-align: center; /* Ensures normal text alignment within cells */
+  }
+
+h2 {
+	text-align: center; /* Ensures normal text alignment within cells */
+  }
+
+.centered-list {
+	text-align: center;
+  }
+.centered-list li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+h3 {
+	text-align: center;
+}
+h3 a {
+	color: #333; /* Initial text color */
+	text-decoration: none; /* Remove underline */
+	transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  h3 a:hover {
+	color: #ec1010; /* Text color on hover */
+  }
+  
+	
